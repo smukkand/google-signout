@@ -18,5 +18,5 @@
 To use this script, you need to have a proper role assigned to your GSuite account. Most of the scopes require GSuite Administrator role.
 
 You also need a file named **credential.json**. Please contact your GSuite Administrator to have it downloaded it for you. 
-The file needs to download from GCP project as a OAuth credentail for desktop applications, The Oauth credentail also must have proper scopes assigned on google workspace.!
+The file needs to download from GCP project as a OAuth credentail for desktop applications, The Oauth credentail also must have proper scopes assigned on google workspace
 
