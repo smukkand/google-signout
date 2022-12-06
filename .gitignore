@@ -1,0 +1,11 @@
+# macOS Files
+.DS_Store
+
+# Token Pickle
+tokengroup.pickle
+
+# Users List
+/usersList/*
+
+#credential
+credentials*
