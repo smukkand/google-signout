@@ -1,16 +1,17 @@
 # Google SignOut Script
 `An automation script that wil signoff the users based on filters, the logic follows as below:`
-    1- Script will fetch and store all users from gsuite to file "usersList/allGoogleUsers.txt"
 
-    2- Check if there are users mentioned in excludeList.txt, if yes, remove those and add the all other users to inludeList.txt
+    1- Script will fetch and store all users from gsuite to file usersList/allGoogleUsers.txt
 
-    3- Check if there are users in includeList.txt, if yes - process only it, else add the all users to inludeList from step-1 
+    2- Check if there are users mentioned in usersList/excludeList.txt, if yes, remove those and add the all other users to usersList/inludeList.txt
+
+    3- Check if there are users in usersList/includeList.txt, if yes - process only it, else add the all users to inludeList from step-1 
 
 
 # Requirements
 # Install the Google client library
   pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-  
+
   pip3 install pandas
 
 # Administrative Access to Google workspace
