@@ -1,5 +1,5 @@
 # Google SignOut Script
-`An automation script that wil signoff the users based on filters, the logic follows as below:` \n 
+`An automation script that wil signoff the users based on filters, the logic follows as below: \n `
     `1- Script will fetch and store all users from gsuite to file "usersList/allGoogleUsers.txt" ` \n 
     `2- Check if there are users mentioned in excludeList.txt, if yes, remove those and add the all other users to inludeList.txt` \n 
     `3- Check if there are users in includeList.txt, if yes - process only it, else add the all users to inludeList from step-1` \n 
